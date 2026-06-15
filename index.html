@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce(study)</title>
+  <link rel="stylesheet" href="./styles/variables.css">
+  <link rel="stylesheet" href="./styles/golbals.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="page">
+<!-- **************************************************** -->
+  <header class="header">
+    <div class="header__head-menu">
+      <nav class="navigation header__navigation-contacts">
+        <ul class="header__navigation-contacts-list">
+          <li class="header__navigation-contacts-item">
+            <a class="link contacts-item__link" href="#">About Us</a>
+          </li>
+          <li class="header__navigation-contacts-item">
+            <a class="link contacts-item__link" href="#">Order Tracking</a>
+          </li>
+          <li class="header__navigation-contacts-item">
+            <a class="link contacts-item__link" href="#">Contact Us</a>
+          </li>
+          <li class="header__navigation-contacts-item">
+            <a class="link contacts-item__link" href="#">FAQs</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__lang-currency-block">
+        <div class="header__language-menu lang-currency_part">
+          <span>English</span>
+          <svg class="ptichka-down-icon">
+            <use href="./svg/logo-ptichka-down.svg#ptichka" />
+          </svg>
+        </div>
+        <div class="header__currency-menu lang-currency_part">
+          <span>USD</span>
+          <svg class="ptichka-down-icon">
+            <use href="./svg/logo-ptichka-down.svg#ptichka" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__nav-pages-block">
+      <div class="main__logo">
+        <svg class="company-main-icon">
+          <use href="./svg/logo-main.svg#logo-main" />
+        </svg>
+        <svg class="company-name-icon">
+          <use href="./svg/logo-TailGrids.svg#logo-name" />
+        </svg>
+      </div>
+      <nav class="navigation header__pages-menu">
+        <ul class="header__pages-menu-list">
+          <li class="header__pages-menu-item">
+            <a class="link pages-menu-item__link" href="#">Home</a>
+          </li>
+          <li class="header__pages-menu-item">
+            <a class="link pages-menu-item__link" href="#">Shop</a>
+          </li>
+          <li class="header__pages-menu-item">
+            <a class="link pages-menu-item__link link-with-icon" href="#">
+              <div class="pages-menu-item__link_text">
+                <span>Products</span>
+                <svg class="pages-menu-item__link_icon ptichka-down-bigger-icon">
+                  <use href="./svg/logo-ptichka-down.svg#ptichka" />
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="header__pages-menu-item">
+            <a class="link pages-menu-item__link" href="#">Accessories</a>
+          </li>
+          <li class="header__pages-menu-item">
+            <a class="link pages-menu-item__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__help-block">
+        <svg class="header__help-block-icon">
+          <use href="./svg/logo-add-phone.svg#logo-phone" />
+        </svg>
+        <p class="header__help-block-text">
+          <span>Need Help?</span>
+          <span>+001 123 456 789</span>
+        </p>
+      </div>
+      <div class="header__customer-area">
+        <svg class="header__customer-area-icon">
+          <use href="./svg/logo-add-private.svg#logo-private" />
+        </svg>
+        <div class="header__customer-area-icon_with-dot">
+          <svg class="header__customer-area-icon">
+            <use href="./svg/logo-add-like.svg#logo-like" />
+          </svg>
+          <svg class="header__customer-area-icon_dot">
+            <use href="./svg/logo-dot.svg#logo-dot" />
+          </svg>
+        </div>
+        <div class="header__customer-area-icon_with-dot">
+          <svg class="header__customer-area-icon">
+            <use href="./svg/logo-add-bin.svg#logo-bin" />
+          </svg>
+          <svg class="header__customer-area-icon_dot">
+            <use href="./svg/logo-dot.svg#logo-dot" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <section class="section section__head-advertising">
+    <div class="head-advertizing">
+      <div class="advertizing_text-pic-block big-card">
+        <img
+          loading="lazy"
+          class="content__picture big-picture"
+          src="./images/Banner-big_mega-sale.png"
+          alt="Картинка .."
+        />
+        <div class="advertizing_text-pic-block_content">
+          <h2 class="card_title big-card_title">Mega Sale Up To 50% Off For All</h2>
+          <p class="card_text big-card_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare
+            vestibulum mollis. Nam vitae augue purus. Integer ac accumsan nunc.
+          </p>
+          <button class="card_button button big-card_button blue-button">Grab The Offer</button>
+        </div>
+      </div>
+      <div class="advertizing_text-pic-block small-card card-girl">
+        <img
+          loading="lazy"
+          class="content__picture small-picture"
+          src="./images/Banner-small_girl.png"
+          alt="Картинка .."
+        />
+        <div class="advertizing_text-pic-block_content">
+          <h4 class="card_title small-card_title">Summer Travel Collection</h4>
+          <p class="card_text small-card_sub-title">Discover Now</p>
+        </div>
+      </div>
+      <div class="advertizing_text-pic-block small-card card-phone">
+        <img
+          loading="lazy"
+          class="content__picture small-picture"
+          src="./images/Banner-small_phone.png"
+          alt="Картинка  ..."
+        />
+        <div class="advertizing_text-pic-block_content">
+          <h4 class="card_title small-card_title">Get 30% Off On iPhone</h4>
+          <p class="card_text small-card_sub-title">Shop Now</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ************************** CAROUSEL ************************* -->
+  <section class="section section__recent-arrivals">
+    <div class="recent-arrivals_header-title">
+      <div class="recent-arrivals_header-title_big">
+        Recent Arrivals
+      </div>
+      <p class="recent-arrivals_header-title_sub">
+        There are many variations of passages of Lorem Ipsum available
+      </p>
+      <p class="recent-arrivals_header-title_sub">
+        but the majority have suffered alteration in some form.
+      </p>
+    </div>
+    <div class="recent-arrivals_carousel">
+      <ul class="carousel-card-list">
+        <li class="carousel-card">
+          <span class="carousel-card-badge red">Hot</span>
+          <img
+            loading="lazy"
+            class="carousel-card-thumbnail"
+            src="./images/recent/women-bag.png"
+            alt="qqq"
+          />
+          <div class="carousel-card_info-block">
+            <a href="#" class="carousel-card-link">
+              <h5 class="carousel-card-description">Stylish Women Bag</h5>
+            </a>
+            <div class="carousel-card-price">
+              <span class="carousel-card-price_current">£146.00</span>
+              <span class="carousel-card-price_previous"></span>
+            </div>
+            <div class="carousel-card-rate">
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon is-empty">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+            </div>
+            <button class="button carousel-card-button blue-button">Add to cart</button>
+          </div>
+        </li>
+        <li class="carousel-card">
+          <span class="carousel-card-badge blue">-50%</span>
+          <img
+            loading="lazy"
+            class="carousel-card-thumbnail"
+            src="./images/recent/hand-watch.png"
+            alt="qqq"
+          />
+          <div class="carousel-card_info-block">
+            <a href="#" class="carousel-card-link">
+              <h5 class="carousel-card-description">Stylish Watch For Man</h5>
+            </a>
+            <div class="carousel-card-price">
+              <span class="carousel-card-price_current">£75.00</span>
+              <span class="carousel-card-price_previous">£150.00</span>
+            </div>
+            <div class="carousel-card-rate">
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+            </div>
+            <button class="button carousel-card-button dark-button">Add to cart</button>
+          </div>
+        </li>
+        <li class="carousel-card">
+          <span class="carousel-card-badge"></span>
+          <img
+            loading="lazy"
+            class="carousel-card-thumbnail"
+            src="./images/recent/t-shirt.png"
+            alt="qqq"
+          />
+          <div class="carousel-card_info-block">
+            <a href="#" class="carousel-card-link">
+              <h5 class="carousel-card-description">Polo T-shirt For Man</h5>
+            </a>
+            <div class="carousel-card-price">
+              <span class="carousel-card-price_current">£25.00</span>
+              <span class="carousel-card-price_previous"></span>
+            </div>
+            <div class="carousel-card-rate">
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+            </div>
+            <button class="button carousel-card-button blue-button">Add to cart</button>
+          </div>
+        </li>
+        <li class="carousel-card">
+          <span class="carousel-card-badge green">New</span>
+          <img
+            loading="lazy"
+            class="carousel-card-thumbnail"
+            src="./images/recent/wallet.png"
+            alt="qqq"
+          />
+          <div class="carousel-card_info-block">
+            <a href="#" class="carousel-card-link">
+              <h5 class="carousel-card-description">Luxury Wallet For Male</h5>
+            </a>
+            <div class="carousel-card-price">
+              <span class="carousel-card-price_current">£95.00</span>
+              <span class="carousel-card-price_previous"></span>
+            </div>
+            <div class="carousel-card-rate">
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+              <svg width="20" height="20" class="star-icon is-empty">
+                <use href="./svg/star-rating.svg#star-smart"></use>
+              </svg>
+            </div>
+            <button class="button carousel-card-button blue-button">Add to cart</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="carousel-buttons">
+      <button class="button carousel-button button-left"></button>
+      <button class="button carousel-button button-right"></button>
+    </div>
+  </section>
+<!-- ***********************END CAROUSEL ************************* -->
+<!-- ************************** NEW PRODUCTS ********************* -->
+  <section class="section section__new-sales-lots">
+    <article class="article new-sales-lots__item">
+      <div class="new-sales-lots__item-about">
+        <a href="#" class="start-from-50_link">
+          <h4 class="new-sales-item_start-from-price">Start From $50</h4>
+        </a>
+        <h2 class="new-sales-item_title">New Arival From Creative Clock Collections</h2>
+        <p class="new-sales-item_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet molestie nunc.
+          Vestibulum tempus justo et venenatis tempus. Nulla tincidunt,
+        </p>
+        <a href="#" class="blue-button new-sales-lots_view-all-items-button">View All Items</a>
+      </div>
+      <img
+        loading="lazy"
+        class="new-sales-item_picture"
+        src="./images/new/clock.png"
+        alt="qqq"
+      />     
+    </article>
+    <article class="article new-sales-lots__item">
+      <div class="new-sales-lots__item-about">
+        <a href="#" class="start-from-50_link">
+          <h4 class="new-sales-item_start-from-price">Start From $49</h4>
+        </a>
+        <h2 class="new-sales-item_title">New Summer Collections For Man’s Fashion.</h2>
+        <p class="new-sales-item_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet molestie nunc.
+          Vestibulum tempus justo et venenatis tempus. Nulla tincidunt,
+        </p>
+        <a href="#" class="blue-button new-sales-lots_view-all-items-button">View All Items</a>
+      </div>
+      <img
+        loading="lazy"
+        class="new-sales-item_picture"
+        src="./images/new/glasses.png"
+        alt="qqq"
+      />     
+    </article>
+  </section>
+<!-- ***********************END NEW PRODUCTS ********************* -->
+
+<!-- ***********************SHOP BY CATEGORY ********************* -->
+  <section class="section section__shop-by-category">
+    <div class="shop-by-category_header">
+      <h3 class="shop-by-category_header-title">Shop by category</h3>
+      <p class="shop-by-category_header-text">There are many variations of passages of Lorem
+        Ipsum available but the majority have suffered alteration in some form.</p>
+    </div>
+    <div class="shop-by-category__cards">
+      <div class="shop-by-category__card">
+        <img
+          loading="lazy"
+          class="shop-by-category__card-image"
+          src="./images/category/Accessories.png"
+          alt="www"
+        >
+        <div class="shop-by-category__card-text">
+          <a href="#" class="shop-by-category__card-link">
+            <h4 class="shop-by-category__card-title">Accessories</h4>
+          </a>
+          <p class="shop-by-category__card-text">8 Products Available</p>
+        </div>
+      </div>
+      <div class="shop-by-category__card">
+        <img
+          loading="lazy"
+          class="shop-by-category__card-image"
+          src="./images/category/Bags.png"
+          alt="www"
+        >
+        <div class="shop-by-category__card-text">
+          <a href="#" class="shop-by-category__card-link">
+            <h4 class="shop-by-category__card-title">Bags</h4>
+          </a>
+          <p class="shop-by-category__card-text">4 Products Available</p>
+        </div>
+      </div>
+      <div class="shop-by-category__card">
+        <img
+          loading="lazy"
+          class="shop-by-category__card-image"
+          src="./images/category/Electronics.png"
+          alt="www"
+        >
+        <div class="shop-by-category__card-text">
+          <a href="#" class="shop-by-category__card-link">
+            <h4 class="shop-by-category__card-title">Electronics</h4>
+          </a>
+          <p class="shop-by-category__card-text">12 Products Available</p>
+        </div>
+      </div>
+      <div class="shop-by-category__card">
+        <img
+          loading="lazy"
+          class="shop-by-category__card-image"
+          src="./images/category/Shoes.png"
+          alt="www"
+        >
+        <div class="shop-by-category__card-text">
+          <a href="#" class="shop-by-category__card-link">
+            <h4 class="shop-by-category__card-title">Shoes</h4>
+          </a>
+          <p class="shop-by-category__card-text">24 Products Available</p>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="blue-button section__shop-by-category-button">Explore All Category</a>
+  </section>
+
+  <!-- ********************END SHOP BY CATEGORY ****************** -->
+
+  <!-- ********************BLOG NEWS ****************** -->
+  <section class="section section__blog-news">
+    <div class="blog-news_header">
+      <h3 class="blog-news_header-title">From our blog</h3>
+      <p class="blog-news_header-text">
+        There are many variations of passages of Lorem Ipsum
+        available but the majority have suffered alteration in some form.
+      </p>
+    </div>
+    <div class="blog-news__cards">
+      <div class="blog-news__card">
+        <img
+          loading="lazy"
+          class="blog-news__card-image"
+          src="./images/blog/BestFasion.png"
+          alt="eee"
+        >
+        <div class="blog-news__card-text">
+          <a href="##" class="blog-news__card-date-select-button blue-button">Dec 22, 2024</a>
+          <a href="#" class="blog-news__card-link">
+            <h3 class="blog-news__card-title">
+              Best latest & trending fashion items in 2024
+            </h3>
+          </a>
+          <p class="blog-news__card-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+      <div class="blog-news__card">
+        <img
+          loading="lazy"
+          class="blog-news__card-image"
+          src="./images/blog/StylishFasion.png"
+          alt="eee"
+        >
+        <div class="blog-news__card-text">
+          <a href="##" class="blog-news__card-date-select-button blue-button">Mar 15, 2023</a>
+          <a href="#" class="blog-news__card-link">
+            <h3 class="blog-news__card-title">
+              Stylish fashion dress ideas for womens
+            </h3>
+          </a>
+          <p class="blog-news__card-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+      <div class="blog-news__card">
+        <img
+          loading="lazy"
+          class="blog-news__card-image"
+          src="./images/blog/Affordable.png"
+          alt="eee"
+        >
+        <div class="blog-news__card-text">
+          <a href="##" class="blog-news__card-date-select-button blue-button">Jan 05, 2023</a>
+          <a href="#" class="blog-news__card-link">
+            <h3 class="blog-news__card-title">
+              Affordable clothing brands in australia
+            </h3>
+          </a>
+          <p class="blog-news__card-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ********************END BLOG NEWS ****************** -->
+  <!-- ************************** FOOTER ****************** -->
+  <footer class="footer">
+    <div class="full-horizontal-line"></div>
+    <div class="footer__benefits">
+      <div class="footer__benefits_card">
+        <div class="footer__benefits_card-icon-block">
+          <svg class="footer__benefits_card-icon">
+            <use href="./svg/logo_footer-free-delivery.svg" />
+          </svg>
+        </div>
+        <h3 class="footer__benefits_card-title">Free delivery</h3>
+        <span class="footer__benefits_card-description">
+          Lorem ipsum dolor sit amet, consect adipiscing eliteget lorem.
+        </span>
+      </div>
+      <div class="footer__benefits_card">
+        <div class="footer__benefits_card-icon-block">
+          <svg class="footer__benefits_card-icon">
+            <use href="./svg/logo_footer-online-payment.svg" />
+          </svg>
+        </div>
+        <h3 class="footer__benefits_card-title">Online Payment.</h3>
+        <span class="footer__benefits_card-description">
+          Lorem ipsum dolor sit amet, consect adipiscing eliteget lorem.
+        </span>
+      </div>
+      <div class="footer__benefits_card">
+        <div class="footer__benefits_card-icon-block">
+          <svg class="footer__benefits_card-icon">
+            <use href="./svg/logo_footer-easy-return.svg" />
+          </svg>
+        </div>
+        <h3 class="footer__benefits_card-title">Easy Return.</h3>
+        <span class="footer__benefits_card-description">
+          Lorem ipsum dolor sit amet, consect adipiscing eliteget lorem.
+        </span>
+      </div>
+    </div>
+    <div class="full-horizontal-line"></div>
+    <div class="footer__navigation-blocks">
+      <div class="footer__navigation-main-contacts">
+        <div class="footer__navigation-main-contacts-icon-block">
+          <div class="main__logo">
+            <svg class="company-main-icon">
+              <use href="./svg/logo-main.svg#logo-main" />
+            </svg>
+            <svg class="company-name-icon">
+              <use href="./svg/logo-TailGrids.svg#logo-name" />
+            </svg>
+          </div>
+        </div>
+        <div class="footer__navigation-main-contacts address">
+          <svg class="footer__contacts-icon">
+            <use href="./svg/logo_footer-address.svg" />
+          </svg>
+          <span class="footer__contacts-text">
+            Shop 009A, Level 4, Block A, Demo Park, Ottawa
+          </span>
+        </div>
+        <div class="footer__navigation-main-contacts phone">
+          <svg class="footer__contacts-icon">
+            <use href="./svg/logo_footer-phone.svg" />
+          </svg>
+          <span class="footer__contacts-text">
+            +1-613-555-0182
+          </span>
+        </div>
+        <div class="footer__navigation-main-contacts mail">
+          <svg class="footer__contacts-icon">
+            <use href="./svg/logo_footer-email.svg" />
+          </svg>
+          <span class="footer__contacts-text">
+            contact@yourmail.com
+          </span>
+        </div>
+      </div>
+      <div class="footer__navigation-my-account">
+        <h3 class="footer__navigation-my-account-title footer-title">My Account</h3>
+        <nav class="footer__navigation-my-account-menu">
+          <ul class="footer__navigation__menu-list">
+            <li class="my-account-menu-item">
+              <a class="my-account-menu-item__link" href="#">My Profile</a>
+            </li>
+            <li class="my-account-menu-item">
+              <a class="my-account-menu-item__link" href="#">My Order History</a>
+            </li>
+            <li class="my-account-menu-item">
+              <a class="my-account-menu-item__link" href="#">Order Tracking</a>
+            </li>
+            <li class="my-account-menu-item">
+              <a class="my-account-menu-item__link" href="#">Shopping Cart</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navigation footer__navigation-shop-departments">
+        <h3 class="footer__navigation-shop-departments-title footer-title">Shop Departments</h3>
+        <nav class="footer__navigation-shop-departments-menu">
+          <ul class="footer__navigation__menu-list">
+            <li class="shop-departments-menu-item">
+              <a class="shop-departments-menu-item__link" href="#">Computers & Accessories</a>
+            </li>
+            <li class="shop-departments-menu-item">
+              <a class="shop-departments-menu-item__link" href="#">Smartphones & Tablets</a>
+            </li>
+            <li class="shop-departments-menu-item">
+              <a class="shop-departments-menu-item__link" href="#">TV, Video & Audio</a>
+            </li>
+            <li class="shop-departments-menu-item">
+              <a class="shop-departments-menu-item__link" href="#">Cameras, Photo & Video</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__download-app">
+        <h3 class="footer__download-app-title footer-title">Download App</h3>
+        <div class="footer__download-app-links">
+          <a href="#" class="footer__download-apple-app-item button-app"></a>
+          <a href="#" class="footer__download-google-app-item button-app"></a>
+        </div>
+      </div>
+    </div>
+  <div class="full-horizontal-line"></div>
+  <div class="footer__cards_accepted">
+    <img
+      loading="lazy"
+      class="footer__cards-accepted-small-logo"
+      src="./images/payment-cards/paypal.png"
+      alt="Картинка .."
+    />
+    <img
+      loading="lazy"
+      class="footer__cards-accepted-small-logo"
+      src="./images/payment-cards/visa.png"
+      alt="Картинка .."
+    />
+    <img
+      loading="lazy"
+      class="footer__cards-accepted-small-logo"
+      src="./images/payment-cards/master-card.png"
+      alt="Картинка .."
+    />
+    <img
+      loading="lazy"
+      class="footer__cards-accepted-small-logo"
+      src="./images/payment-cards/american-express.png"
+      alt="Картинка .."
+    />
+    <img
+      loading="lazy"
+      class="footer__cards-accepted-small-logo"
+      src="./images/payment-cards/discover.png"
+      alt="Картинка .."
+    />
+  </div>
+  <div class="footer__tm-all-rights-reserved">© 2024 TailGrids. All Rights Reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>

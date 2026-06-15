@@ -1,0 +1,27 @@
+:root {
+  --font-family-main:
+    'Inter-Variable', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --color-dark: #212B36;       /* Заголовки (почти черный, но с синеватым отливом) */
+  /*--color-text: #637381;       /* Основной текст (серый, спокойный) */
+  --color-text: rgba(99, 115, 129, 1); 
+  --color-white: #FFFFFF;      /* Чистый белый */
+  --color-bg-light: #F3F4F6;   /* Фон карточек или секций (очень светло-серый) */
+
+  /* Акценты (Кнопки и ссылки) */
+  --color-primary: #3056D3;    /* Основной синий (кнопки "Add to Cart", "Grab the Offer") */
+  --color-primary-hover: #2347B9; /* Синий при наведении */
+  
+  /* Бейджи (Метки на товарах) */
+  --color-hot: #EF4444;        /* Красный для "Hot" */
+  --color-discount: #3758F9;   /* Голубой для "-50%" */
+  --color-new: #10B981;        /* Зеленый для "New" */
+
+  /* Вспомогательные */
+  --color-border: #E7E7E7;     /* Границы карточек или разделители */
+  --color-star-core: #ffa645;       /* Желтый для рейтинга (звездочки) */
+  --color-star-border: #ffa645;       /* Желтый для рейтинга (звездочки) */
+
+  --font-general-weight: 500;
+}
